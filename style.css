@@ -1,0 +1,187 @@
+html{
+        background:rgb(199, 37, 62)
+}
+
+*{
+    color:whitesmoke ;
+}
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    backdrop-filter: blur(5px);   
+    transition: backdrop-filter 0.3s ease-in-out;
+}
+
+.logo-container, .navbar {
+    display: inline-block;     
+    vertical-align: middle;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.business-name {
+    margin: 2px ;
+    font-size: 18px;
+    color: #E85C0D;
+    text-align: start;
+}
+
+.navbar {
+    margin-left: 100px;
+    text-align: center;  
+    display: flex; 
+    align-items: center;
+    padding: 1px 400px;
+    color: white;      
+}
+
+.navbar a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;  
+    display: flex;
+}
+
+.hero {                              
+    height: 400px;                                           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(26, 23, 23);                                            
+    text-align: center;
+    position: relative;
+    font-size: larger;
+}
+
+.hero::before {
+    background-image: url('b89ccc22b4fa329559e96b02a19aabee.jpg');
+    filter: blur(2px);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+             
+}
+
+.hero-content {
+    position: relative;                                      
+    z-index: 1;
+    font-size:xx-large;
+    color: rgb(0, 0, 0);
+}
+
+.cta-button {
+    background-color: #E85C0D;                              
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+.main-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.introduction, .featured-products, .services, .gallery, .contact-info {
+    margin-bottom: 40px; 
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%; 
+    height: 80%; 
+    border-radius: 10px; 
+}
+
+footer {
+    background-color: #333; 
+    color: rgb(255, 255, 255); 
+    text-align: end; 
+    padding: 20px 0; 
+}
+
+.contact-details{
+    color: black;
+}
+
+.social-media a { 
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+}
+
+.social-media img {
+    vertical-align: middle;
+    
+}
+
+
+
+.signforms{
+        font-family: Arial, sans-serif;
+        background-color: #812020;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        margin: 0;
+        text-align: center;
+        font-size: large;
+}
+form {
+    background-image: url('a7eb950c3914b7bdb6b4cec315d8af32.jpg');
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+input, select, button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #141313;
+    border-radius: 5px;
+    color: black;
+}
+
+button {
+    background-color: #E85C0D;
+    color: #f3f2f2;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+button:hover {
+    background-color: #d14f09;
+}
